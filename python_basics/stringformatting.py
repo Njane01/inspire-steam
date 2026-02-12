@@ -49,5 +49,16 @@ sentence_3= "you have received 40kes from Joe"
 split= sentence_3.split(" ")
 print(f"New Mpesa text: ",split[3])
       
+balance= "12.02 kes"
+amount_added="40 kes"
 
+cleaned_balance= balance.replace("kes","")
+print (f"cleaned balance: {cleaned_balance} ")
+cleaned_amount_added= amount_added.replace("kes","")
+
+print(f"cleaned_amount_added is :{cleaned_amount_added}")
+
+new_balance = float(cleaned_balance) + int(cleaned_amount_added)
+
+print(f"new_balance is: {new_balance}")
 
