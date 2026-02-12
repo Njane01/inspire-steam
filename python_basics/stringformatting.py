@@ -60,5 +60,5 @@ print(f"cleaned_amount_added is :{cleaned_amount_added}")
 
 new_balance = float(cleaned_balance) + int(cleaned_amount_added)
 
-print(f"new_balance is: {new_balance}")
+print(f"new_balance is: {new_balance} KES")
 
