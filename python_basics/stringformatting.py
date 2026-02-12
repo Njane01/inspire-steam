@@ -43,3 +43,11 @@ print(f"cleaned_amount_balance:{cleaned_amount_added}")
 new_balance = int(cleaned_balance) + int(cleaned_amount_added)
 
 print(f"the new balance is :{new_balance} ")
+
+
+sentence_3= "you have received 40kes from Joe"
+split= sentence_3.split(" ")
+print(f"New Mpesa text: ",split[3])
+      
+
+
