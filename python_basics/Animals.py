@@ -22,8 +22,7 @@ class Dog(Animal):
      
      
      
-        super(). __init__(species,weight,food):
-
+        super().__init__(species,weight,food):  
         self.species= species
         self.weight= weight
         self.breed = breed
