@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    border: solid 3px yellow;
+    height: 400px;
+    width: 600px;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+
+overflow-x: scroll;
+
+}
+.box{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}

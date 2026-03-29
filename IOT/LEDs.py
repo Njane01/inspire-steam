@@ -1,0 +1,21 @@
+
+from machine import Pin
+
+import time
+
+red_led = Pin(28, Pin.OUT)
+yellow_led =Pin(27, Pin.OUT)
+
+
+while True:
+    red_led.on()
+    yellow_led.off()
+    time.sleep (1) # wait for usb to get ready
+    red_led.off()
+    yellow_led.on()
+    time.sleep (1)
+    print(" XOXO")
+
+
+  
+  
